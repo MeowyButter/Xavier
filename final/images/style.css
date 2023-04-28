@@ -1,0 +1,83 @@
+			* {
+				padding: 0;
+				margin: 0;
+			}
+			
+			@font-face {
+				font-family: "emel";
+				src: url("fonts/ml.ttf");
+			}
+			 
+			@font-face {
+				font-family: "disc";
+				src: url("fonts/disc.otf");
+			}
+			
+			.wrapper {
+				width: 100%;
+			}
+			
+			.logo {
+				width: 100%;
+			}
+			
+			.xavier {
+				padding: 0px 20px 20px;
+				width: 90%;
+			}
+			
+			.info {
+				width: 100%;
+			}
+			
+			.info h1 {
+				padding: 50px 30px 20px;
+				font-size: 32px;
+				font-family: "emel";
+				line-height: 10px;
+			}
+			
+			.info h2 {
+				padding: 10px 30px 20px;
+				font-size: 20px;
+				font-family: "emel";
+				line-height: 10px;
+			}
+			
+			.info p {
+				padding: 10px 30px 20px;
+				font-size: 15px;
+				font-family: "disc";
+				line-height: 15px;
+				text-align: justify;
+				text-indent: 50px;
+			}
+			
+			@media only screen and (min-width: 768px) {
+				.logo {
+					width: 70%;
+					display: block;
+					margin-left: auto;
+					margin-right: auto;
+				}
+				
+	
+			
+				.info h1 {
+					padding: 50px 50px 20px;
+				}
+			
+				.info h2 {
+					padding: 10px 50px 20px;
+				}
+			
+				.info p {
+					padding: 10px 50px 20px;
+				}
+				
+				.xavier {
+					padding: 0px 50px 20px;
+					max-width: 300px;
+					float: left;
+				}
+			}
